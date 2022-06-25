@@ -1,0 +1,135 @@
+#area {
+  width: max-content;
+  height: max-content;
+  padding: 25px;
+  background: #c0c0c0;
+  margin: auto;
+  cursor: default;
+  user-select: none;
+  flex-direction: column;
+  border: 2px solid #1883D7;
+  border-top-width: 25px;
+}
+#area #panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+#area .smile {
+  width: 2.7rem;
+  height: 2.7rem;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  border: 5px solid #808080;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  display: inline-flex;
+  margin: 1rem;
+}
+#area .smile img {
+  width: 100%;
+  height: 100%;
+}
+#area table {
+  margin: auto;
+  width: max-content;
+  padding: 0;
+  border-spacing: 0;
+  border: 10px solid #808080;
+  border-bottom-color: #fff;
+  border-right-color: #fff;
+}
+#area table td {
+  font-size: 1.2rem;
+  font-weight: 900;
+  font-family: "Arial", serif;
+  padding: 0;
+  margin: 0;
+  width: 37px;
+  height: 37px;
+  box-sizing: border-box;
+}
+#area table td img {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+#area button {
+  background: transparent;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: none;
+}
+#area button img {
+  background: transparent;
+  width: 25px;
+  height: 25px;
+}
+
+#modalWindow {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-color: #808080;
+  background: rgba(0, 0, 0, 0.35);
+  backdrop-filter: blur(9px);
+}
+#modalWindow form {
+  font-family: "Century Gothic", serif;
+  font-size: 1.4rem;
+  width: max-content;
+  height: max-content;
+  margin: auto;
+  border: 5px solid #5892e2;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  border-radius: 25% 40% 25% 40%;
+  align-self: center;
+  padding: 25px;
+  background: linear-gradient(167deg, #fff 15%, #5892e2 52%);
+}
+#modalWindow form input {
+  width: 1.7rem;
+  height: max-content;
+  margin: 5px;
+  font-family: "Century Gothic", serif;
+  font-size: 1.4rem;
+}
+#modalWindow form input[type=submit] {
+  width: max-content;
+  height: max-content;
+}
+#modalWindow form input[name=bombs] {
+  width: 120px;
+  height: max-content;
+}
+
+.open {
+  border: 1px solid #49525f;
+  background: #c0c0c0;
+}
+
+.close {
+  border: 5px solid #49525f;
+  border-top-color: #fff;
+  border-left-color: #fff;
+  background: #c0c0c0;
+}
+
+.isBomb {
+  box-sizing: border-box;
+  border: 1px solid #49525f;
+}
+
+.bomb {
+  box-sizing: border-box;
+  border: 1px solid #49525f;
+  background: #f00;
+}
+
+/*# sourceMappingURL=styles.module.css.map */
